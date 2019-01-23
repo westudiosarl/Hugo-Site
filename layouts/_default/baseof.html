@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Title }} - {{ .Site.Title }} </title>
+{{ block "meta" . }}{{end}}
+<link media="all" rel="stylesheet" href="{{ "css/modules.css" | relURL}}">
+<link media="all" rel="stylesheet" href="{{ "css/all.css" | relURL}}">
+<script src="{{ "js/ss-social.js" | relURL}}"></script>
+<script src="{{ "js/ss-standard.js" | relURL}}"></script>
+<!--[if IE]><script type="text/javascript" src="{{ "js/ie.js" | relURL}}"></script><![endif]-->
+<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="{{ "css/ie.css" | relURL}}" /><![endif]-->
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@olympics">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Description }}">
+<meta name="twitter:creator" content="@olympics">
+<meta name="twitter:image" content="[[ARTICLE IMAGE]]">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ .URL }}" />
+<meta property="og:image" content="[[ARTICLE IMAGE]]" />
+<meta property="og:description" content="{{ .Description }}" />
+<meta property="article:published_time" content="{{ .Date }}" />
+<meta property="article:modified_time" content="{{ .Date }}" />
+<meta property="article:section" content="[[NEWS TOPIC]]" />
+<meta property="article:tag" content="[[ARTICLE TAGS]]" />
+<meta property="article:publisher" content="209361989215" />
+<meta property="og:site_name" content="International Olympic Committee" />
+<meta property="fb:admins" content="209361989215" />
+
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"NewsArticle",
+  "@id":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+  "url":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+  "mainEntityOfPage":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+  "datePublished":"2014-09-27",
+  "dateModified":"2014-09-27",
+  "headline":"Item heading can span across no more than two lines. Must be truncated to 110 characters",
+  "image":{
+    "@type":"ImageObject",
+    "url":"https://placehold.it/1060x600",
+    "width":"1060",
+    "height":"600"
+  },
+  "publisher":{
+    "@type":"Organization",
+    "@id":"https://www.olympic.org/the-ioc",
+    "name":"IOC",
+    "logo":{
+      "@type":"ImageObject",
+      "url":"https://stillres.olympic.org/images/logo/logo-90@2x.png",
+      "width":"180",
+      "height":"82"
+    }
+  },
+  "author":"IOC",
+  "description":"Article description, can be same as meta description"
+}
+</script>
+
+</head>
+<body>
+
+
+
+<div id="loaderImage"></div>
+<a href="#main" class="accessibility">skip to content</a>
+<div id="wrapper">
+
+{{ partial "header" . }}
+
+
+{{ partial "breadcrumb" . }}
+
+
+
+
+    <div class="image-box">
+         <picture>
+             <!--[if IE 9]><video style="display: none;"><![endif]-->
+             <source srcset="//placehold.it/1060x600, //placehold.it/2120x1200 2x" media="(min-width: 768px)">
+             <!--[if IE 9]></video><![endif]-->
+             <img srcset="//placehold.it/768x337, //placehold.it/1536x674 2x" alt="Image Alt Text">
+         </picture>
+         <span class="news-topic-label sochi2014">Sochi 2014</span> <span class="label-photo"><span class="sss-picture"></span>Label to describe photo.</span> </div>
+     <div id="main">
+       <div class="main-holder">
+         <section class="post-box">
+           <div class="info-col">
+             <dl>
+               <dt>Date</dt>
+               <dd>30 OCT 2014</dd>
+               <dt>Tags</dt>
+               <dd><a href="#">Usain Bolt</a>, <a href="#">London 2012</a>, <a href="#">Athletics</a></dd>
+             </dl>
+           </div>
+           <h1>Sochi 2014 promises A fresh look at Russian culture in Closing Ceremony</h1>
+           <ul class="social-col">
+             <li><a href="#" class="facebook"><span class="ico ss-icon">facebook</span><span class="txt">Share</span></a></li>
+             <li><a href="#" class="twitter"><span class="ico ss-icon">twitter</span><span class="txt">tweet</span></a></li>
+             <li><a href="#" class="more"><span class="ico sss-icon">redirect</span><span class="txt">More</span></a></li>
+           </ul>
+           {{ block "main" . }}
+           {{end}}
+
+   	  <hr />
+         <section class="related-posts">
+           <header class="heading">
+             <h2>Related News</h2>
+           </header>
+           <div class="boxes">
+             <article class="box">
+                 <script type="application/ld+json">
+                   {
+                     "@context":"http://schema.org",
+                     "@type":"NewsArticle",
+                     "@id":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+                     "url":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+                     "mainEntityOfPage":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+                     "datePublished":"2014-09-27",
+                     "dateModified":"2014-09-27",
+                     "headline":"Item heading can span across no more than two lines. Must be truncated to 110 characters",
+                     "image":{
+                       "@type":"ImageObject",
+                       "url":"https://placehold.it/1060x600",
+                       "width":"1060",
+                       "height":"600"
+                     },
+                     "publisher":{
+                       "@type":"Organization",
+                       "@id":"https://www.olympic.org/the-ioc",
+                       "name":"IOC",
+                       "logo":{
+                         "@type":"ImageObject",
+                         "url":"https://stillres.olympic.org/images/logo/logo-90@2x.png",
+                         "width":"180",
+                         "height":"82"
+                       }
+                     },
+                     "author":"IOC",
+                     "description":"Article description, can be same as meta description"
+                   }
+                 </script>
+                 <span class="image"> <a href="#">
+                 <picture class="image">
+                     <!--[if IE 9]><video style="display: none;"><![endif]-->
+                     <source srcset="//placehold.it/340x191, //placehold.it/680x388 2x" media="(min-width: 768px)">
+                     <!--[if IE 9]></video><![endif]-->
+                     <img srcset="//placehold.it/250x140, //placehold.it/500x280 2x" alt="Image Alt Text">
+                 </picture>
+                 <span class="news-topic-label london2012">London 2012</span> </a> </span>
+               <h2><a href="#">Item heading can span across no more than two lines.</a></h2>
+               <time datetime="2012-12-23T08:23:11+07:00">27 aug 2014</time>
+             </article>
+             <article class="box">
+                 <script type="application/ld+json">
+                   {
+                     "@context":"http://schema.org",
+                     "@type":"NewsArticle",
+                     "@id":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+                     "url":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+                     "mainEntityOfPage":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+                     "datePublished":"2014-09-27",
+                     "dateModified":"2014-09-27",
+                     "headline":"Item heading can span across no more than two lines. Must be truncated to 110 characters",
+                     "image":{
+                       "@type":"ImageObject",
+                       "url":"https://placehold.it/1060x600",
+                       "width":"1060",
+                       "height":"600"
+                     },
+                     "publisher":{
+                       "@type":"Organization",
+                       "@id":"https://www.olympic.org/the-ioc",
+                       "name":"IOC",
+                       "logo":{
+                         "@type":"ImageObject",
+                         "url":"https://stillres.olympic.org/images/logo/logo-90@2x.png",
+                         "width":"180",
+                         "height":"82"
+                       }
+                     },
+                     "author":"IOC",
+                     "description":"Article description, can be same as meta description"
+                   }
+                 </script>
+                 <span class="image"> <a href="#">
+                 <picture class="image">
+                     <!--[if IE 9]><video style="display: none;"><![endif]-->
+                     <source srcset="//placehold.it/340x191, //placehold.it/680x388 2x" media="(min-width: 768px)">
+                     <!--[if IE 9]></video><![endif]-->
+                     <img srcset="//placehold.it/250x140, //placehold.it/500x280 2x" alt="Image Alt Text">
+                 </picture>
+                 <span class="news-topic-label london2012">London 2012</span> </a> </span>
+               <h2><a href="#">Item heading can span across no more than two lines.</a></h2>
+               <time datetime="2012-12-23T08:23:11+07:00">27 aug 2014</time>
+             </article>
+             <article class="box">
+                 <script type="application/ld+json">
+                   {
+                     "@context":"http://schema.org",
+                     "@type":"NewsArticle",
+                     "@id":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+                     "url":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+                     "mainEntityOfPage":"https://www.olympic.org/news/pyeongchang-2018-luge-to-be-mixture-of-old-and-new",
+                     "datePublished":"2014-09-27",
+                     "dateModified":"2014-09-27",
+                     "headline":"Item heading can span across no more than two lines. Must be truncated to 110 characters",
+                     "image":{
+                       "@type":"ImageObject",
+                       "url":"https://placehold.it/1060x600",
+                       "width":"1060",
+                       "height":"600"
+                     },
+                     "publisher":{
+                       "@type":"Organization",
+                       "@id":"https://www.olympic.org/the-ioc",
+                       "name":"IOC",
+                       "logo":{
+                         "@type":"ImageObject",
+                         "url":"https://stillres.olympic.org/images/logo/logo-90@2x.png",
+                         "width":"180",
+                         "height":"82"
+                       }
+                     },
+                     "author":"IOC",
+                     "description":"Article description, can be same as meta description"
+                   }
+                 </script>
+                 <span class="image"> <a href="#">
+                 <picture class="image">
+                     <!--[if IE 9]><video style="display: none;"><![endif]-->
+                     <source srcset="//placehold.it/340x191, //placehold.it/680x388 2x" media="(min-width: 768px)">
+                     <!--[if IE 9]></video><![endif]-->
+                     <img srcset="//placehold.it/250x140, //placehold.it/500x280 2x" alt="Image Alt Text">
+                 </picture>
+                 <span class="news-topic-label london2012">London 2012</span> </a> </span>
+               <h2><a href="#">Item heading can span across no more than two lines.</a></h2>
+               <time datetime="2012-12-23T08:23:11+07:00">27 aug 2014</time>
+             </article>
+           </div>
+         </section>
+         <div class="add-row">
+           <div class="quick-links"> <span class="opener">Quick links:</span>
+             <ul class="list-select">
+               <li><a href="#"><span class="arrow-country arrow rio2016"></span>Rio 2016</a></li>
+               <li><a href="#"><span class="arrow-country london2012"></span>London 2012</a></li>
+               <li class="grey"><a href="#"><span class="arrow-country"></span>IOC News</a></li>
+               <li class="yellow"><a href="#"><span class="arrow-country yog-nanjing2014"></span>Nanjing 2014</a></li>
+             </ul>
+             <div class="btn-box">
+   	          <a href="#" class="btn"><span class="icon-arrow-down"></span><span class="hide">btn</span></a>
+   				<div class="popup-box">
+   					<div class="scrollable jcf-scrollable">
+   						<ul>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   							<li><a href="#">QUICK links link</a></li>
+   						</ul>
+   					</div>
+   				</div>
+   			  </div>
+   		</div>
+           <form action="#" class="search-form2">
+             <fieldset>
+               <legend class="hide">search form</legend>
+               <span class="submit icon-search">
+               <input type="submit" value="submit" />
+               </span>
+               <div class="area">
+                 <input type="text" accesskey="4" placeholder="Search" title="Search" />
+               </div>
+             </fieldset>
+           </form>
+         </div>
+       </div>
+     </div>
+
+     {{ block "footer" . }}
+
+     <footer id="footer">
+         <div class="section">
+           <div class="holder">
+             <nav>
+               <ul class="links-boxes">
+                 <li> <strong class="title">olympic games</strong>
+                   <div class="slide">
+                     <ul>
+                       <li><a href="#">all olympic games</a></li>
+                       <li><a href="#">summer olympics</a></li>
+                       <li><a href="#">winter olympics</a></li>
+                       <li><a href="#">results</a></li>
+                       <li><a href="#">athletes</a></li>
+                     </ul>
+                   </div>
+                 </li>
+                 <li> <strong class="title">Media</strong>
+                   <div class="slide">
+                     <ul>
+                       <li><a href="#">Media resources</a></li>
+                       <li><a href="#">latest news</a></li>
+                       <li><a href="#">broadcasting</a></li>
+                       <li><a href="#">documents</a></li>
+                     </ul>
+                   </div>
+                 </li>
+                 <li> <strong class="title">the games</strong>
+                   <div class="slide">
+                     <ul>
+                       <li><a href="#">torch relay</a></li>
+                       <li><a href="#">mascots</a></li>
+                       <li><a href="#">olympic rings</a></li>
+                       <li><a href="#">olympic medals</a></li>
+                       <li><a href="#">ancient games</a></li>
+                     </ul>
+                   </div>
+                 </li>
+                 <li> <strong class="title">Programmes</strong>
+                   <div class="slide">
+                     <ul>
+                       <li><a href="#">olympic solidarity</a></li>
+                       <li><a href="#">olympic day</a></li>
+                       <li><a href="#">women and sport</a></li>
+                       <li><a href="#">sustainability</a></li>
+                       <li><a href="#">olympic legacy</a></li>
+                     </ul>
+                   </div>
+                 </li>
+                 <li> <strong class="title">the ioc</strong>
+                   <div class="slide">
+                     <ul>
+                       <li><a href="#">Jobs at the IOC</a></li>
+                       <li><a href="#">Volunteers</a></li>
+                       <li><a href="#">The Organisation</a></li>
+                       <li><a href="#">Sponsors</a></li>
+                     </ul>
+                   </div>
+                 </li>
+               </ul>
+             </nav>
+           </div>
+         </div>
+         <div class="holder">
+           <form action="#" class="sign-form">
+             <fieldset>
+               <legend class="hide">sign form</legend>
+               <label for="text1">Sign up for our newsletter</label>
+               <div class="area">
+                 <input type="submit" value="GO" />
+                 <div class="area2"> <i class="ss-mail"></i>
+                   <input type="text" id="text1" placeholder="Your email address" />
+                 </div>
+               </div>
+             </fieldset>
+           </form>
+           <div class="add-text">
+             <div class="logo2"><a href="#"><img src="images/logo.png" alt="OlympicGames" width="70" height="32" /></a></div>
+             <p>&copy; Copyright 2014. All rights reserved</p>
+             <a href="#">Legal information</a> &nbsp;&nbsp;&nbsp;<a href="#">Sitemap</a> </div>
+         </div>
+       </footer>
+
+      {{end}}
+      <a href="#wrapper" class="accessibility">back to top</a> </div>
+     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+     <script type="text/javascript" src="js/jquery.main.js"></script>
+     </body>
+     </html>

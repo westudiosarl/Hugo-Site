@@ -1,0 +1,9 @@
+baseURL = "https://www.olympic.org"
+languageCode = "en-us"
+title = "Olympics"
+name = "Serif"
+license = "Westudio"
+licenselink = "https://www.we-studio.ch"
+description = "Template for the olympic Games"
+homepage = "https://we-studio.ch"
+min_version = 0.51
