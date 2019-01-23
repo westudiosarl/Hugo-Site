@@ -1,10 +1,11 @@
 ---
-title: "A"
-date: 2019-01-18T16:21:18+01:00
-draft: false
----
+title: A
+date: 2019-01-18 15:21:18 +0000
 
+---
 this is a.md
+
+asldkksalkdlkalskdéasd
 
 {{% simple-paragraph %}}
 **this is my text bold**
