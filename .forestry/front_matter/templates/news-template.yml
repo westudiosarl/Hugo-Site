@@ -1,0 +1,33 @@
+---
+label: News Template
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: title
+  config:
+    required: true
+- type: datetime
+  name: publish-date
+  label: Publishing Date
+  description: Publishing date
+  config:
+    date_format: DD/MM/YYYY
+    display_utc: true
+    required: true
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Tags
+- type: blocks
+- type: include
+- type: field_group
+- type: textarea
+  label: Content news
+  name: content_news
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
