@@ -1,9 +1,12 @@
 baseURL = "https://www.olympic.org"
 languageCode = "en-us"
-title = "Olympics"
-name = "Serif"
+title = "International Olympic Committee"
+templatename = "We studio"
 license = "Westudio"
 licenselink = "https://www.we-studio.ch"
 description = "Template for the olympic Games"
 homepage = "https://we-studio.ch"
 min_version = 0.51
+[Params]
+  og_ID = "209361989215"
+  header_image = "https://stillmed.olympic.org/media/Images/OlympicOrg/News/General/olympic-flag.jpg"

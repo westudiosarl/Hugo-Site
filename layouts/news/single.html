@@ -1,0 +1,45 @@
+{{define "meta"}}
+<meta name="description" content="{{ .Description }} ">
+{{end}}
+
+{{define "head"}}
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"NewsArticle",
+  "@id":"{{.URL}}",
+  "url":"{{.URL}}",
+  "mainEntityOfPage":"{{.URL}}",
+  "datePublished":"{{.Date}}",
+  "dateModified":"{{.Date}}",
+  "headline":"{{.Title}}",
+  "image":{
+    "@type":"ImageObject",
+    "url":"https://placehold.it/1060x600",
+    "width":"1060",
+    "height":"600"
+  },
+  "publisher":{
+    "@type":"Organization",
+    "@id":"https://www.olympic.org/the-ioc",
+    "name":"IOC",
+    "logo":{
+      "@type":"ImageObject",
+      "url":"https://stillres.olympic.org/images/logo/logo-90@2x.png",
+      "width":"180",
+      "height":"82"
+    }
+  },
+  "author":"IOC",
+  "description":"{{ .Description }}"
+}
+</script>
+{{end}}
+
+{{define "main"}}
+  {{ .Content }}
+{{end}}
+
+{{define "footer"}}
+  footer single
+{{end}}
